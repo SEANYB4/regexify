@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav> 
+        <h1>Regexify</h1>
+        <img src="./images/logo.png" alt="logo">
+    </nav>
+   
+
+    <div id="controls">
+
+        <div id="left">
+
+            <div id="input">
+                <label for="input">Input</label>
+                <input name="input" type="textarea" id="textInput">
+            </div>
+
+            <div id="regex">
+                <label for="regex">Regex</label>
+                <input name="regex" type="text" id="regexInput">
+            </div>
+
+        </div>
+
+        <div id="right">
+            <div id="outputDiv">
+                <label for="output">Matches</label>
+                <input type="textarea" name="output" id="output">   
+            </div>
+
+            <div id="bottomright">
+                <div id="buttons">
+                    <button id="btn">Submit</button>
+                    <button id="nextTipBtn">Next Tip</button>
+                </div>
+                
+                <ul id="tips">
+                    <h3>Basic Regex Operators</h3>
+                    <li>. (Dot): Matches any single character except newline characters.</li>
+                    <li>^ (Caret): Matches the start of the string.</li>
+                    <li>$ (Dollar): Matches the end of the string.</li>
+                    <li>* (Asterisk): Matches zero or more occurrences of the preceding element.</li>
+                    <li>+ (Plus): Matches one or more occurrences of the preceding element.</li>
+                    <li>? (Question mark): Matches zero or one occurrence of the preceding element.</li>
+                    <li>| (Pipe): Acts as a logical OR between expressions.</li>
+                    <li>[...] (Character class): Matches any one character in the brackets.</li>
+                    <li>[^...] (Negated character class): Matches any one character not in the brackets.</li>
+                    <li>{n} (Curly brackets): Matches exactly n number of occurrences of the preceding element.</li>
+                    <li>{n,}: Matches n or more occurrences of the preceding element.</li>
+                    <li>{n,m}: Matches between n and m occurrences of the preceding element.</li>
+                </ul>
+            </div>
+
+
+            
+            
+        </div>
+        
+       
+    </div>
+
+    <script src="script.js"></script>
+    <script src="change_tips.js"></script>
+</body>
+</html>
