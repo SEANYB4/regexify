@@ -10,7 +10,7 @@ function submit(event) {
     const output = document.getElementById('output');
     output.value = '';
     
-    let regex = new RegExp(pattern, 'i');
+    let regex = new RegExp(pattern, '');
     let result = regex.exec(textInput);
     console.log(result);
 
