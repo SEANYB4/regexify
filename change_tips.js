@@ -14,25 +14,25 @@ const tips1 = `<h3>Basic Regex Operators</h3>
 
 
 const tips2 = `<h3>Special Character Classes</h3>
-                    <li>\d: Matches any digit (equivalent to [0-9]).</li>
-                    <li>\D: Matches any non-digit character (equivalent to [^0-9]).</li>
-                    <li>\w: Matches any alphanumeric character (equivalent to [a-zA-Z0-9_]).</li>
-                    <li>\W: Matches any non-alphanumeric character (equivalent to [^a-zA-Z0-9_]).</li>
-                    <li>\s: Matches any whitespace character (spaces, tabs, line breaks).</li>
-                    <li>\S: Matches any non-whitespace character.</li>
+                    <li>\\d: Matches any digit (equivalent to [0-9]).</li>
+                    <li>\\D: Matches any non-digit character (equivalent to [^0-9]).</li>
+                    <li>\\w: Matches any alphanumeric character (equivalent to [a-zA-Z0-9_]).</li>
+                    <li>\\W: Matches any non-alphanumeric character (equivalent to [^a-zA-Z0-9_]).</li>
+                    <li>\\s: Matches any whitespace character (spaces, tabs, line breaks).</li>
+                    <li>\\S: Matches any non-whitespace character.</li>
                     `;
 
 
 const tips3 = `<h3>Anchors and Boundaries</h3>
-                <li>\b: Matches a word boundary (the position between a word and a non-word character).</li>
-                <li>\B: Matches a position where the previous and next character are of the same type: Either both must be words, or both must be non-words.</li>
-                <li>\A: Matches the beginning of the input.</li>
-                <li>\Z: Matches the end of the input or before a final newline.</li>
-                <li>\z: Matches the end of the input.</li>
+                <li>\\b: Matches a word boundary (the position between a word and a non-word character).</li>
+                <li>\\B: Matches a position where the previous and next character are of the same type: Either both must be words, or both must be non-words.</li>
+                <li>\\A: Matches the beginning of the input.</li>
+                <li>\\Z: Matches the end of the input or before a final newline.</li>
+                <li>\\z: Matches the end of the input.</li>
                 `;
 
 const tips4 = `<h3>Escaping Special Characters</h3>
-                <li>\\: Use a backslash to escape special characters (e.g., \\. matches a literal dot).</li>
+                <li>\\\\: Use a backslash to escape special characters (e.g., \\. matches a literal dot).</li>
                 `;
 
 

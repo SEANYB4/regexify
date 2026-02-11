@@ -15,7 +15,7 @@ function submit(event) {
     console.log(result);
 
     result.forEach((match) => {
-        output.value += "\n " + match;
+        output.value += match + ', ';
     })
 }
 
